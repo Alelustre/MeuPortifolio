@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 768px) {
+    .projeto .item {
+        width: calc((70% / 1) - 10px);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* outline: 1px solid green; */
+    }
+    .sobremim3, .imagen {
+        width: 100%;
+    }
+
+    .links_navegacao {
+
+        font-size: 1.0rem;
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .projeto .item {
+        width: calc((70% / 1) - 10px);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* outline: 1px solid green; */
+    }
+    .sobremim3, .imagen {
+        width: 100%;
+    }
+
+    .links_navegacao {
+    
+        font-size: 1.0rem;
+        width: 28%;
+    }
+}
