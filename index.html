@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Portifólio</title>
+    <link rel="icon" href="assets/retomar.png">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/style-mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=forward_to_inbox"/>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=send_to_mobile" />
     
 </head>
 <body>
@@ -90,7 +88,11 @@
     </section>
 
     <section>
-        <h2 class="contato">Contato</h2>
+    <h2 class="contato">Contato</h2>
+
+    <div class="contato-wrapper">
+
+    <div class="contato-infos">
         <div class="contato_contatos">
             <img src="./assets/send_to_mobile_24dp.svg" alt="Telefone" class="img_contato">
             <p>(11) 9 8805-1060</p>
@@ -100,7 +102,13 @@
             class="img_contato">
             <p>alelustre@gmail.com</p>
         </div>
-        <form action="https://formspree.io/f/seu_codigo_aqui" method="POST" class="contact-form">
+        <div class="tecnologias">
+            <img src="assets/tecno/arquivo-html.png" alt="HTML">
+            <img src="assets/tecno/arquivo-css.png" alt="CSS">
+            <img src="assets/tecno/js.png" alt="JavaScript">
+        </div>     
+     </div>   
+        <form action="https://formspree.io/f/mvgabbwl" method="POST" class="contact-form">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
             
@@ -112,12 +120,12 @@
           
                 <button type="submit">Enviar</button>
         </form>
-        
+    </div>
     </section>
-
     <footer class="rodape">
         <p>&copy; 2025 Alessandro Lustre</p>
     </footer>
-    
+    <script src="js/script.js"></script>
 </body>
+    
 </html>

@@ -17,6 +17,21 @@
         width: 30%;
     }
 
+    .contato-wrapper {
+        flex-direction: column;
+      }
+
+    .contato-infos, 
+    .contact-form {
+        width: 100%;
+      }
+
+    .contact-form,
+    .contato-infos {
+        padding: 1rem;
+  }  
+
+
 }
 
 @media screen and (max-width: 1024px) {
